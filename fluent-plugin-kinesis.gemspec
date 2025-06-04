@@ -44,7 +44,7 @@ Gem::Specification.new do |spec|
   #   LoadError: cannot load such file -- aws-sdk-core/plugins/transfer_encoding.rb
   #   https://github.com/aws/aws-sdk-ruby/commit/bb61ed0a2fabc6b1f90b757f13f37d5aeae48d8a#diff-b493e941d32289cd2df7eebc3fc5be2cR26
   #   https://github.com/aws/aws-sdk-ruby/commit/e26577d2a426a4be79cd2d9edc1a4a4176e388ba#diff-10f50e27b30c3dc522b3c25db5782e2e
-  spec.add_dependency "aws-sdk-kinesis", "~> 1", "!= 1.4", "!= 1.5", "!= 1.14"
+  spec.add_dependency "aws-sdk-kinesis", "~> 1", "!= 1.4", "!= 1.5", "!= 1.14", "!= 1.8"
   # Exclude aws-sdk-firehose v1.9 to avoid aws-sdk-core dependency problem with td-agent v3.2.1
   #   LoadError: cannot load such file -- aws-sdk-core/plugins/endpoint_discovery.rb
   #   https://github.com/aws/aws-sdk-ruby/commit/85d8538a62255e58d9e176ee524a9f94354b51a0#diff-d51486091a10ada65b308b7f45966af1R18
